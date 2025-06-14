@@ -42,7 +42,6 @@
 
 **Muskan Tiwari**  
 Java | Spring Boot | Web Developer  
-📬 Connect on [LinkedIn](https://www.linkedin.com/in/muskantiwari)
 
 ---
 

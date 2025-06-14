@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="LandingPage">
+        <div class="Wrapper">
+            <div class="flex-content">
+                <h1 class="vacationHeading">Welcome To DevQuizzer</h1>
+                <a href="#quiz-packages" class="btn">Start Now</a>
+            </div>
+        </div>
+    </section>
+
+    <header class="quiz-header" id="quiz-header">
+        <h1 class="heading">DevQuizzer</h1>
+    </header>
+    
+    <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#quiz-packages">Quiz</a>
+        <a href="#perfomer">Top Perfomer</a>
+        <a href="#notes">Notes</a>
+    </nav>
+
+    <section class="quiz-packages-section" id="quiz-packages">
+        <h1 class="quiz-heading">Sharpen Your Coding Skills</h1>
+        <p class="quiz-test">Select a language below and test your technical knowledge through curated quizzes designed for all skill levels.</p>
+        <br>
+        <div class="package-wrapper">
+            <div class="package-card">
+                <img src="../images/javaimg.svg"  alt="java logo">
+                 <p class="card-heading">Java Programming</p>
+               <p class="card-test">Assess your core Java concepts like OOPs, exception handling, collections, and more.</p>
+               <button class="btn" onclick="startQuiz('java')">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src="../images/pythonimg.svg" alt="Python logo">
+                <p class="card-heading">Python Programming</p>
+                <p class="card-test">Test your Python knowledge with questions on data types, loops, functions, and libraries.</p>
+                <button class="btn" onclick="startQuiz('python')">Take Quiz</button>
+            </div>
+
+            <div class="package-card">
+                <img src="../images/cppimg.png" alt="C++ logo">
+                <p class="card-heading">C++ Programming</p>
+                <p class="card-test">Challenge yourself on topics like pointers, memory management, STL, and object-oriented design.</p>
+                <button class="btn" onclick="startQuiz('cpp')">Take Quiz</button>
+            </div>
+
+            <div class="package-card">
+                <img src="../images/jsimg.svg" alt="JavaScript logo">
+                <p class="card-heading">JavaScript Basics</p>
+                <p class="card-test">Explore JavaScript essentials — from variables and functions to DOM and events.</p>
+                <button class="btn" onclick="startQuiz('javascript')">Take Quiz</button>
+            </div>
+
+            <div class="package-card">
+                <img src="../images/dsaimg.png" alt="DSA logo">
+                <p class="card-heading">DSA (Data Structures & Algorithms)</p>
+                <p class="card-test">Master your understanding of arrays, stacks, trees, graphs, sorting, and more.</p>
+                <button class="btn" onclick="startQuiz('dsa')">Take Quiz</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="performer-quiz-section" id="perfomer">
+        <h1 class="quiz-heading">Hall of Fame: Top Performers</h1>
+        <p class="quiz-text">Celebrate the coders who aced the quizzes with top scores and lightning-fast submissions.</p>
+        <div class="image-card">
+            <img src="../images/performer1.jpg" alt="Top performer 1">
+            <img src="../images/performer2.jpg" alt="Top performer 2">
+            <img src="../images/performer3.jpg" alt="Top performer 3">
+            <img src="../images/performer4.jpg" alt="Top performer 4">
+            <img src="../images/performer5.jpg" alt="Top performer 5">
+        </div>
+    </section>
+    <section class="notes-section" id="notes">
+        <h1 class="quiz-heading">Quick Notes & Cheat Sheets</h1>
+        <p class="notes-text">Boost your revision with quick notes covering essential concepts, syntax, and tricks for each language.</p>
+        <div class="notes-div">
+            <div class="notes-wrapper">
+                    <h3>Java Notes</h3>
+                    <p>Key topics: OOPs, Collections, Multithreading, Exception Handling</p>
+                    <br>
+                    <a href="../notes/coreJavaSheet.pdf" download class="btn">📥 Download PDF</a>
+            </div>
+            <div class="notes-wrapper">
+                    <h3>JavaScript Notes</h3>
+                    <p>Key topics: Variables, DOM, Events, Functions, Promises</p>
+                    <br>
+                    <a href="./notes/javascript.pdf" download class="btn">📥 Download PDF</a>
+            </div>
+            <div class="notes-wrapper">
+                    <h3>DSA Notes</h3>
+                    <p>Key topics: Arrays, Trees, Graphs, Searching & Sorting, Recursion</p>
+                    <br>
+                    <a href="./notes/dsa.pdf" download class="btn">📥 Download PDF</a>
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer-section">
+  <p>&copy; 2025 DevQuizzer. All rights reserved.</p>
+  <p>
+    Developed & Maintained by 
+    <a href="https://www.linkedin.com/in/muskan-tiwari-937460269" target="_blank" rel="noopener noreferrer">
+      Muskan Tiwari
+    </a>
+  </p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
